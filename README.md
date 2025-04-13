@@ -1,6 +1,20 @@
 # pweather
 Polybar module which display weather by ip-address, wrote on python
 
+__Dependencies:__
+
+```requests``` library for python
+
+install
+```Arch Linux```:
+```
+~# pacman -S python-requests
+```
+
+install ```Python pip```:
+```
+pip install requests
+```
 
 __INSTALL:__
 
