@@ -1,5 +1,5 @@
 # pweather
-Weather module for polybar wrote on python
+Polybar module which display weather by ip-address, wrote on python
 
 
 __INSTALL:__
@@ -8,7 +8,7 @@ run ```install.sh``` and add this lines to polybar config
 ```
 [module/pweather]
 type = custom/script
-exec = ~/.polybar-scripts/pweather/pweather.sh --weather
+exec = ~/.polybar-scripts/pweather/pweather.sh --arg
 interval = 600
 ```
 
