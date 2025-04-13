@@ -5,13 +5,13 @@ __Dependencies:__
 
 ```requests``` library for python
 
-install
+install on 
 ```Arch Linux```:
 ```
 ~# pacman -S python-requests
 ```
 
-install ```Python pip```:
+install with ```Python pip```:
 ```
 pip install requests
 ```
