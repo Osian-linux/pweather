@@ -1,29 +1,29 @@
 # pweather
 Polybar module which display weather by ip-address, wrote on python
 
-__Dependencies:__
+# __Dependencies:__
 
 ```requests``` library for python
 
-install on
+Install on
 ```Arch Linux```:
 ```
 ~# pacman -S python-requests
 ```
 
-install with ```Python pip```:
+Install with ```Python pip```:
 ```
 pip install requests
 ```
 
-__INSTALL:__
+# __Install:__
 
 run ```install.sh``` and add this lines to polybar config
 ```
 [module/pweather]
 type = custom/script
 exec = ~/.polybar-scripts/pweather/pweather.sh --arg
-interval = 600
+interval = 5
 ```
 
 __Argument ```--cityweather```:__
